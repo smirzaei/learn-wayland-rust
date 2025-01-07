@@ -1,0 +1,17 @@
+[package]
+name = "rust-wayland"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+libc = "0.2.169"
+tempfile = "3.15.0"
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+wayland-client = "0.31.7"
+wayland-protocols = { version = "0.32.5", features = ["client"] }
+
+[dev-dependencies]
+clippy = "0.0.302"
+
